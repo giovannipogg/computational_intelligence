@@ -1,7 +1,5 @@
 ## Travelling Salesperson Problem  V 0
 
-Not much is implemented but deadlines...
-
 ### Mutations
 
 The code is largely based on the vanilla hill-climber presented during lecture, and inspired by the book by Eiben and Smith "Introduction to Evolutionary Computation".
