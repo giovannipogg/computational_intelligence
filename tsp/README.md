@@ -3,7 +3,7 @@
 ### Mutations
 
 The code is largely based on the vanilla hill-climber presented during lecture, and inspired by the book by Eiben and Smith "Introduction to Evolutionary Computation".
-A solution is here represented as a permutation of nodes to be visited by the salesperson. In this version only mutation operators are implemented: specifically all mutation operators presented in the book for permutation representations.
+A solution is here represented as a permutation of nodes to be visited by the salesperson. Due to time constraints, in this version only mutation operators are implemented: specifically all mutation operators presented in the book for permutation representations.
 
 A fair comparison is thus performed between the swap-only (vanilla) hill-climber and one with a wider variety of operators to be mutated by.
 
