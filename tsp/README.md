@@ -25,5 +25,5 @@ On the other hand, comparing randomly initialized hill-climbers, the larger set 
 
 ### Populations
 
-A small experiment with partenogenetic individuals under a $(\mu+\lambda)$ strategy was conducted.
-Again, four tests were performed between random vs heuristic initialization (of each individual with different starting nodes) and vanilla vs extended set of mutations.
+A small experiment with partenogenetic individuals under a 'plus' strategy was conducted.
+Again, four tests were performed between random vs heuristic initialization (of each individual with different starting nodes) with the extended set of mutations.
