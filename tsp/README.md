@@ -23,8 +23,12 @@ On the other hand, comparing randomly initialized hill-climbers, the larger set 
 
 ![alt text](https://github.com/giovannipogg/computational_intelligence/blob/main/tsp/Figure_1.png)
 
+In this graph "Vanilla" is the solution given in the lectures, "ManyMutations" is the same hill-climber but with access to all the mutation strategies, "Vanilla+Heuristics" stands for the given solution with the nearest-neighbor initialization, while "Hardcore" was given access both to the intialization and the wider variety of operators. 
+
 
 ### Populations
 
 A small experiment with partenogenetic individuals under a 'plus' strategy was conducted.
 A couple of tests were performed between random vs heuristic initialization (of each individual with different starting nodes) with the extended set of mutations against the vanilla hill-climber. Due to longer computational time the steady state was limited to just 100 and so was the reange of number of cities. In general, having more randomly initialized individuals makes it possible to further improving on the simpler solution, while the power of the heuristc makes it hard for a population initialized with it to make big improvements.
+
+![alt text](https://github.com/giovannipogg/computational_intelligence/blob/main/tsp/Figure_3.png)
