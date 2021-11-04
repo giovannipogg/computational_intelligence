@@ -21,7 +21,7 @@ The tests performed are thus the product between one vs many mutation operators 
 It can be seen that the nearest neighbor heuristic solution becomes harder to improve upon as the number of cities increases (all the other variables being fixed). Nevertheless, it does improve the performaces of the regardless of the mutations available.
 On the other hand, comparing randomly initialized hill-climbers, the larger set of operators does seem to lead to an improvement in performances with respect to vanilla.
 
-![alt text](https://github.com/giovannipogg/computational_intelligence/blob/main/Figure_1.png)
+![alt text](https://github.com/giovannipogg/computational_intelligence/tree/main/tsp/Figure_1.png)
 
 
 ### Populations
