@@ -29,6 +29,10 @@ In this graph "Vanilla" is the solution given in the lectures, "ManyMutations" i
 ### Populations
 
 A small experiment with partenogenetic individuals under a 'plus' strategy was conducted.
-A couple of tests were performed between random vs heuristic initialization (of each individual with different starting nodes) with the extended set of mutations against the vanilla hill-climber. Due to longer computational time the steady state was limited to just 100 and so was the reange of number of cities. In general, having more randomly initialized individuals makes it possible to further improving on the simpler solution, while the power of the heuristc makes it hard for a population initialized with it to make big improvements.
+A couple of tests were performed between random vs heuristic initialization (of each individual with different starting nodes) with the extended set of mutations against the vanilla hill-climber. Due to longer computational time the steady state was limited to just 100 and so was the reange of number of cities. In general, having more randomly initialized individuals makes it possible to further improve on the simpler solution, while the power of the heuristc makes it hard for a population initialized with it to make the cost much better.
 
 ![alt text](https://github.com/giovannipogg/computational_intelligence/blob/main/tsp/Figure_3.png)
+
+#### What's to come
+
+I would like to systematically expand my small library of genetic algorithms and do so in a relatively generalizable way. This will probabily result in many more uploads, including different solutions to this particular problem and to those proposed in the course. 
