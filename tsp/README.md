@@ -23,7 +23,7 @@ On the other hand, comparing randomly initialized hill-climbers, the larger set 
 
 ![alt text](https://github.com/giovannipogg/computational_intelligence/blob/main/tsp/Figure_1.png)
 
-In this graph "Vanilla" is the solution given in the lectures, "ManyMutations" is the same hill-climber but with access to all the mutation strategies, "Vanilla+Heuristics" stands for the given solution with the nearest-neighbor initialization, while "Hardcore" was given access both to the intialization and the wider variety of operators. 
+In this graph "Vanilla" is the solution given in the lectures, "ManyMutations" is the same hill-climber but with access to all the mutation strategies, "Vanilla+Heuristics" stands for the given solution initialized with nearest-neighbor, while "Hardcore" was given access both to the intialization and the wider variety of operators. The dotted lines represent the starting solution cost with (black) or without (grey) the ad hoc initialization.
 
 
 ### Populations
