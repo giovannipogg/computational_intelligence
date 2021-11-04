@@ -21,9 +21,10 @@ The tests performed are thus the product between one vs many mutation operators 
 It can be seen that the nearest neighbor heuristic solution becomes harder to improve upon as the number of cities increases (all the other variables being fixed). Nevertheless, it does improve the performaces of the regardless of the mutations available.
 On the other hand, comparing randomly initialized hill-climbers, the larger set of operators does seem to lead to an improvement in performances with respect to vanilla.
 
+![alt text](https://github.com/giovannipogg/computational_intelligence/blob/main/Figure_1.png)
 
 
 ### Populations
 
 A small experiment with partenogenetic individuals under a 'plus' strategy was conducted.
-Again, four tests were performed between random vs heuristic initialization (of each individual with different starting nodes) with the extended set of mutations.
+A couple of tests were performed between random vs heuristic initialization (of each individual with different starting nodes) with the extended set of mutations against the vanilla hill-climber. Due to longer computational time the steady state was limited to just 100 and so was the reange of number of cities. In general, having more randomly initialized individuals makes it possible to further improving on the simpler solution, while the power of the heuristc makes it hard for a population initialized with it to make big improvements.
