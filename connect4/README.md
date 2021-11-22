@@ -1,6 +1,6 @@
-### Connect4 with capped Minimax and Montecarlo playouts
+## Connect4 with capped Minimax and Montecarlo playouts
 
-## Easier played than done... no wait...
+### Easier played than done... no wait...
 
 Reccomended: having numba installed. Not necessary without the @njit decorators in the `connect.py` and `minimax.py` files.
 
