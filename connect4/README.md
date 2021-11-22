@@ -1,8 +1,8 @@
 ### Connect4 with capped Minimax and Montecarlo playouts
 
-Plays in terminal from folder.
+## Easier played than done... no wait...
 
-Having numba installed is highly reccomendable but not necessary once the @njit decorators are removed from the `connect.py` and `minimax.py` files.
+Reccomended: having numba installed. Not necessary without the @njit decorators in the `connect.py` and `minimax.py` files.
 
 Does not implement a settings loop so to change difficulty go to minimax and change:
 
