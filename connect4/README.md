@@ -1,4 +1,4 @@
-### Connect4 with capped Minimax and Montecarlo
+### Connect4 with capped Minimax and Montecarlo playouts
 
 Plays in terminal from folder.
 
