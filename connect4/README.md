@@ -9,4 +9,4 @@ Does not implement a settings loop so to change difficulty go to `minimax.py` an
 - SAMPLES to adjust the number of Montecarlo playouts, and/or 
 - MAX for modifying the cap of the Minimax
 
-Warning: modiying them may significantly affect the delay of response.
+Warning: modiying them may significantly affect delay.
